@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -15,6 +16,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -31,11 +33,12 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Article(
-                        title = stringResource(R.string.title),
-                        textOne = stringResource(R.string.text_one),
-                        textTwo = stringResource(R.string.text_two)
-                    )
+//                    Article(
+//                        title = stringResource(R.string.title),
+//                        textOne = stringResource(R.string.text_one),
+//                        textTwo = stringResource(R.string.text_two)
+//                    )
+                    TaskManager(label = "All tasks completed", message = "Nice work")
                 }
             }
         }
@@ -74,14 +77,46 @@ fun Article(title: String,
     }
 }
 
+@Composable
+fun TaskManager(
+    label: String,
+    message: String,
+    modifier: Modifier = Modifier
+) {
+    Column(verticalArrangement = Arrangement.Center) {
+        val image = painterResource(R.drawable.ic_task_completed)
+
+        Image(
+            painter = image,
+            contentDescription = null,
+            modifier = modifier.align(alignment = Alignment.CenterHorizontally)
+        )
+
+        Text(text = label,
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier
+                .padding(top = 24.dp, bottom = 8.dp)
+                .align(alignment = Alignment.CenterHorizontally),
+            fontSize = 16.sp
+        )
+
+        Text(
+            text = message,
+            modifier = Modifier.align(alignment = Alignment.CenterHorizontally)
+        )
+    }
+}
+
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
     ComposeBasicsExercisesTheme {
-        Article(
-            title = stringResource(R.string.title),
-            textOne = stringResource(R.string.text_one),
-            textTwo = stringResource(R.string.text_two)
-        )
+//        Article(
+//            title = stringResource(R.string.title),
+//            textOne = stringResource(R.string.text_one),
+//            textTwo = stringResource(R.string.text_two)
+//        )
+
+        TaskManager(label = "All tasks completed", message = "Nice work")
     }
 }
