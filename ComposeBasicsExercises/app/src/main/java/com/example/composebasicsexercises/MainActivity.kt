@@ -8,9 +8,18 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.rounded.Email
+import androidx.compose.material.icons.rounded.Phone
+import androidx.compose.material.icons.rounded.Star
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -18,6 +27,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.modifier.modifierLocalConsumer
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -46,6 +56,7 @@ class MainActivity : ComponentActivity() {
 //                        label = "All tasks completed",
 //                        message = "Nice work"
 //                    )
+                    BusinessCardApp()
                 }
             }
         }
@@ -177,6 +188,98 @@ private fun ComposableInfoCard(
     }
 }
 
+@Composable
+fun BusinessCardApp(modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .background(Color(0xFF686868)),
+        verticalArrangement = Arrangement.SpaceBetween,
+    ) {
+        Column(
+            modifier = modifier
+                .padding(top = 256.dp)
+                .fillMaxWidth(),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            PersonInfo(
+                fullName = "Dimitar Todorov",
+                role = "Android Developer"
+            )
+        }
+
+        Column(
+            modifier = modifier
+                .fillMaxWidth()
+                .padding(92.dp),
+        ) {
+            ContactDetails(
+                phoneNumber = "+359897065558",
+                socialMedia = "@SocialMediaAccount",
+                email = "d.todorov.vn@gmail.com"
+            )
+        }
+
+    }
+}
+
+@Composable
+fun PersonInfo(
+    fullName: String,
+    role: String,
+    modifier: Modifier = Modifier
+) {
+    val logo = painterResource(R.drawable.ic_launcher_foreground)
+
+    Image(
+        logo, modifier = modifier
+            .width(100.dp)
+            .height(100.dp), contentDescription = null
+    )
+    Text(
+        text = fullName,
+        fontSize = 32.sp,
+        fontWeight = FontWeight.Bold,
+        color = Color.White
+    )
+    Text(text = role, fontWeight = FontWeight.Bold)
+}
+
+@Composable
+fun ContactDetails(
+    phoneNumber: String,
+    socialMedia: String,
+    email: String,
+    modifier: Modifier = Modifier
+) {
+    Row {
+        Icon(
+            Icons.Rounded.Phone,
+            contentDescription = "Text",
+            modifier = modifier.padding(end = 5.dp)
+        )
+        Text(text = phoneNumber, fontSize = 14.sp,color = Color.White)
+    }
+    Row {
+        Icon(
+            Icons.Rounded.Star,
+            contentDescription = "Text",
+            modifier = modifier.padding(end = 5.dp)
+        )
+        Text(text = socialMedia, fontSize = 14.sp,color = Color.White)
+    }
+    Row {
+        Icon(
+            Icons.Rounded.Email,
+            contentDescription = "Text",
+            modifier = modifier.padding(end = 5.dp)
+        )
+        Text(text = email, fontSize = 14.sp,color = Color.White)
+    }
+
+
+}
+
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
@@ -188,6 +291,8 @@ fun GreetingPreview() {
 //        )
 
 //        TaskManager(label = "All tasks completed", message = "Nice work")
-        ComposeQuadrantApp()
+//        ComposeQuadrantApp()
+
+        BusinessCardApp()
     }
 }
