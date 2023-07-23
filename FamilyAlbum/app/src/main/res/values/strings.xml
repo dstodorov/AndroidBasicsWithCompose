@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FamilyAlbum</string>
+    <string name="svetozara_todorova">Svetozara Todorova</string>
+    <string name="dimitar_todorov">Dimitar Todorov</string>
+    <string name="tea_todorova">Tea Todorova</string>
+    <string name="dobrina_dimova">Dobrina Dimova</string>
 </resources>
