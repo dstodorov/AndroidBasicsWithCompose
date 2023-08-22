@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">30DaysMotivation</string>
+
+    <string name="quote1_day">Day 1</string>
+    <string name="quote1_title">Day 1 title</string>
+    <string name="quote1_quote">Start where you are. Use what you have. Do what you can.</string>
+    <string name="quote1_author">Arthur Ashe</string>
+
+    <string name="quote2_day">Day 2</string>
+    <string name="quote2_title">Day 2 title</string>
+    <string name="quote2_quote">I never dreamed about success. I worked for it.</string>
+    <string name="quote2_author">Estee Lauder</string>
+
+    <string name="quote3_day">Day 3</string>
+    <string name="quote3_title">Day 3 title</string>
+    <string name="quote3_quote">Don’t think about making art. Just get it done. Let everyone else decide if it’s good or bad, whether they love it or hate it. While they are deciding, make even more art.</string>
+    <string name="quote3_author">Andy Warhol</string>
+
+    <string name="quote4_day">Day 4</string>
+    <string name="quote4_title">Day 4 title</string>
+    <string name="quote4_quote">I am deliberate and afraid of nothing.</string>
+    <string name="quote4_author">Audre Lorde</string>
+
+    <string name="quote5_day">Day 5</string>
+    <string name="quote5_title">Day 5 title</string>
+    <string name="quote5_quote">I began to realize how important it was to be an enthusiast in life. He taught me that if you are interested in something, no matter what it is, go at it full speed ahead. Embrace it with both arms, hug it, love it, and above all become passionate about it. Lukewarm is no good. Hot is no good either. White hot and passionate is the only thing to be.</string>
+    <string name="quote5_author">Roald Dahl, “My Uncle Oswald”</string>
+
+    <string name="quote6_day">Day 6</string>
+    <string name="quote6_title">Day 6 title</string>
+    <string name="quote6_quote">We have a strategic plan. It’s called doing things.</string>
+    <string name="quote6_author">Herb Kelleher, Co-founder of Southwest Airlines</string>
+
+    <string name="quote7_day">Day 7</string>
+    <string name="quote7_title">Day 7 title</string>
+    <string name="quote7_quote">You can’t use up creativity. The more you use, the more you have.</string>
+    <string name="quote7_author">Maya Angelou</string>
+
+    <string name="quote8_day">Day 8</string>
+    <string name="quote8_title">Day 8 title</string>
+    <string name="quote8_quote">Sometimes, you’ve got to work a little, so you can ball a lot.</string>
+    <string name="quote8_author">Tom Haverford</string>
+
+    <string name="quote9_day">Day 9</string>
+    <string name="quote9_title">Day 9 title</string>
+    <string name="quote9_quote">Go to your desire and don’t hang around here.</string>
+    <string name="quote9_author">Jack Kerouac, “Big Sur”</string>
+
+    <string name="quote10_day">Day 10</string>
+    <string name="quote10_title">Day 10 title</string>
+    <string name="quote10_quote">Go confidently in the direction of your dreams! Live the life you’ve imagined!</string>
+    <string name="quote10_author">Thoreau</string>
+
+    <string name="quote11_day">Day 11</string>
+    <string name="quote11_title">Day 11 title</string>
+    <string name="quote11_quote">Now tell me, what is it you plan to do with your one wild and precious life?</string>
+    <string name="quote11_author">Mary Oliver</string>
+
+    <string name="quote12_day">Day 12</string>
+    <string name="quote12_title">Day 12 title</string>
+    <string name="quote12_quote">Find out who you are and do it on purpose.</string>
+    <string name="quote12_author">Dolly Parton</string>
+
+    <string name="quote13_day">Day 13</string>
+    <string name="quote13_title">Day 13 title</string>
+    <string name="quote13_quote">Some people want it to happen, some people wish it would happen, others make it happen.</string>
+    <string name="quote13_author">Michael Jordan</string>
+
+    <string name="quote14_day">Day 14</string>
+    <string name="quote14_title">Day 14 title</string>
+    <string name="quote14_quote">To be contented—that’s for the cows.</string>
+    <string name="quote14_author">Diana Vreeland</string>
+
+    <string name="quote15_day">Day 15</string>
+    <string name="quote15_title">Day 15 title</string>
+    <string name="quote15_quote">The man on top of the mountain didn’t fall there.</string>
+    <string name="quote15_author">Vince Lombardi</string>
+
+    <string name="quote16_day">Day 16</string>
+    <string name="quote16_title">Day 16 title</string>
+    <string name="quote16_quote">Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked. There is no reason not to follow your heart.</string>
+    <string name="quote16_author">Steve Jobs</string>
+
+    <string name="quote17_day">Day 17</string>
+    <string name="quote17_title">Day 17 title</string>
+    <string name="quote17_quote">I always did something I was a little not ready to do. I think that’s how you grow. When there’s that moment of, ‘Wow, I’m not really sure I can do this,’ and you push through those moments, that’s when you have a breakthrough.</string>
+    <string name="quote17_author">Marissa Mayer</string>
+
+    <string name="quote18_day">Day 18</string>
+    <string name="quote18_title">Day 18 title</string>
+    <string name="quote18_quote">Make it work.</string>
+    <string name="quote18_author">Tim Gunn</string>
+
+    <string name="quote19_day">Day 19</string>
+    <string name="quote19_title">Day 19 title</string>
+    <string name="quote19_quote">Never let go of that fiery sadness called desire.</string>
+    <string name="quote19_author">Patti Smith</string>
+
+    <string name="quote20_day">Day 20</string>
+    <string name="quote20_title">Day 20 title</string>
+    <string name="quote20_quote">In any moment of decision, the best thing you can do is the right thing. The next best thing is the wrong thing. The worst thing you can do is nothing.</string>
+    <string name="quote20_author">Theodore Roosevelt</string>
+
+    <string name="quote21_day">Day 21</string>
+    <string name="quote21_title">Day 21 title</string>
+    <string name="quote21_quote">Live every week like it’s Shark Week.</string>
+    <string name="quote21_author">Tracy Jordan</string>
+
+    <string name="quote22_day">Day 22</string>
+    <string name="quote22_title">Day 22 title</string>
+    <string name="quote22_quote">Challenges are gifts that force us to search for a new center of gravity. Don’t fight them. Just find a new way to stand.</string>
+    <string name="quote22_author">Oprah Winfrey</string>
+
+    <string name="quote23_day">Day 23</string>
+    <string name="quote23_title">Day 23 title</string>
+    <string name="quote23_quote">What would you do if you weren’t afraid?</string>
+    <string name="quote23_author">Sheryl Sandberg</string>
+
+    <string name="quote24_day">Day 24</string>
+    <string name="quote24_title">Day 24 title</string>
+    <string name="quote24_quote">Don’t think about your errors or failures; otherwise, you’ll never do a thing.</string>
+    <string name="quote24_author">Bill Murray</string>
+
+    <string name="quote25_day">Day 25</string>
+    <string name="quote25_title">Day 25 title</string>
+    <string name="quote25_quote">Life is short. Don’t be lazy.</string>
+    <string name="quote25_author">Sophia Amoruso</string>
+
+    <string name="quote26_day">Day 26</string>
+    <string name="quote26_title">Day 26 title</string>
+    <string name="quote26_quote">It is not true that people stop pursuing dreams because they grow old. They grow old because they stop pursuing dreams.</string>
+    <string name="quote26_author">Gabriel García Márquez</string>
+
+    <string name="quote27_day">Day 27</string>
+    <string name="quote27_title">Day 27 title</string>
+    <string name="quote27_quote">One, remember to look up at the stars and not down at your feet. Two, never give up work. Work gives you meaning and purpose and life is empty without it. Three, if you are lucky enough to find love, remember it is there and don’t throw it away.</string>
+    <string name="quote27_author">Stephen Hawking</string>
+
+    <string name="quote28_day">Day 28</string>
+    <string name="quote28_title">Day 28 title</string>
+    <string name="quote28_quote">We are what we repeatedly do. Excellence, then, is not an act, but a habit.</string>
+    <string name="quote28_author">Aristotle</string>
+
+    <string name="quote29_day">Day 29</string>
+    <string name="quote29_title">Day 29 title</string>
+    <string name="quote29_quote">Blame it or praise it, there is no denying the wild horse in us.</string>
+    <string name="quote29_author">Virginia Woolf</string>
+
+    <string name="quote30_day">Day 30</string>
+    <string name="quote30_title">Day 30 title</string>
+    <string name="quote30_quote">F*ck you. Pay me.</string>
+    <string name="quote30_author">Mike Monteiro</string>
+    <string name="expand_button_content_description">Show details</string>
+
+</resources>
